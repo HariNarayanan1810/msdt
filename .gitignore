@@ -1,0 +1,18 @@
+node_modules/
+dist/
+
+.env
+.env.*
+!.env.example
+
+*.sqlite
+*.sqlite-*
+
+*.log
+# Backup of nested Git metadata
+server/.git-backup/
+
+# Unused full-resolution course images
+client/src/assets/ux-ui-bg-image.png
+client/src/assets/gd-bg-image.png
+client/src/assets/front-end-bg-image.png
